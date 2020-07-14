@@ -1,6 +1,6 @@
 .Quote {
   background: white;
-  width: 30%;
+  width: 50%;
   /* height: 30%; */
   border-radius: 1rem;
 }
@@ -49,4 +49,12 @@
 
 .fa-quote-left {
   margin-right: 1rem;
+}
+
+@media (max-width: 700px) {
+  .Quote {
+    width: 90%;
+    /* height: 30%; */
+    border-radius: 1rem;
+  }
 }
