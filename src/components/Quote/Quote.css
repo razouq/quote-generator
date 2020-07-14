@@ -1,0 +1,52 @@
+.Quote {
+  background: white;
+  width: 30%;
+  /* height: 30%; */
+  border-radius: 1rem;
+}
+
+.quote-text {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+  transition: color 1s;
+}
+
+.quote-author {
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  transition: color 1s;
+}
+
+.quote-new-button {
+  border: none;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  padding: .7rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s;
+}
+
+.quote-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  transition: color 1s;
+}
+
+.quote-sm-buttons {
+  font-size: 1.5rem;
+}
+
+.sm-icon {
+  margin-right: 1.3rem;
+  transition: color 1s;
+}
+
+.fa-quote-left {
+  margin-right: 1rem;
+}
